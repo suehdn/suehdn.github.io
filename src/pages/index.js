@@ -8,11 +8,11 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <main>
-      <Layout pageTitle="Home Page">
+      <Layout pageTitle="안녕하세요. 현재 블로그 단장중입니다.">
         <p>I'm making this by following the Gatsby Tutorial.</p>
         <StaticImage
           alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-          src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+          src="https://images.unsplash.com/photo-1686412424498-4b0d718d4d8e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2342&q=80"
         />
       </Layout>
     </main>
