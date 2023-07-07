@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/suehdn/suehdn.github.io.git",
   "name": "suehdn-blog",
   "version": "1.0.0",
   "private": true,
@@ -12,7 +13,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
     "@mdx-js/react": "^2.3.0",
