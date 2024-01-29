@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: "안혜수",
+    title: "suehdn",
     siteUrl: `https://suehdn.github.io/`,
   },
   plugins: [
@@ -14,9 +14,9 @@ module.exports = {
       options: {
         name: `blog`,
         path: `${__dirname}/blog`,
-      }
+      },
     },
     "gatsby-plugin-mdx",
     "gatsby-transformer-sharp",
   ],
-}
+};
